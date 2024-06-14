@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8906989099882839106}
   - component: {fileID: 285108307129536279}
   - component: {fileID: 1375642789174896800}
+  - component: {fileID: 575148897293591583}
   m_Layer: 0
   m_Name: Candied Ginger
   m_TagString: Untagged
@@ -299,3 +300,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e07862065e831eb46a2ba3b315fdd201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &575148897293591583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3668330199560017179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 0.25667495, g: 0.80170727, b: 0.9716981, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []

@@ -15,7 +15,7 @@ MonoBehaviour:
   active: 1
   redOutRedIn:
     m_OverrideState: 1
-    m_Value: 159
+    m_Value: 98
   redOutGreenIn:
     m_OverrideState: 1
     m_Value: 66
@@ -24,10 +24,10 @@ MonoBehaviour:
     m_Value: 22
   greenOutRedIn:
     m_OverrideState: 1
-    m_Value: -28
+    m_Value: -35
   greenOutGreenIn:
     m_OverrideState: 1
-    m_Value: 126
+    m_Value: 131
   greenOutBlueIn:
     m_OverrideState: 1
     m_Value: -3
@@ -104,10 +104,10 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.464
+    m_Value: 0.483
   smoothness:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0.376
   rounded:
     m_OverrideState: 1
     m_Value: 0
@@ -126,7 +126,7 @@ MonoBehaviour:
   active: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.174
+    m_Value: 0.056
 --- !u!114 &2710899686799543172
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -151,7 +151,7 @@ MonoBehaviour:
     m_Value: 0
   scatter:
     m_OverrideState: 1
-    m_Value: 0.7
+    m_Value: 0.525
   clamp:
     m_OverrideState: 0
     m_Value: 65472

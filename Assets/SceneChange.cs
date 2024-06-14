@@ -4,12 +4,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SceneChange : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public string scene;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.name == "ShoppingCartCollider")
         {
-            SceneManager.LoadScene("Child");
+            LoadScene();
         }
+    }
+
+    public void LoadScene()
+    {
+        SceneManager.LoadScene(scene);
     }
 }
